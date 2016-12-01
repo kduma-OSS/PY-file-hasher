@@ -100,7 +100,7 @@ for filename in args.files:
         tree.insert(
             "",
             0,
-            text=os.path.basename(filename[:-4]),
+            text=os.path.basename(hashed_file),
             values=(
                 ("OK!" if sha1 == 1 else "-" if sha1 == 0 else "BLAD SUMY KONTROLNEJ"),
                 ("OK!" if md5 == 1 else "-" if md5 == 0 else "BLAD SUMY KONTROLNEJ"),
