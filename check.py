@@ -26,7 +26,7 @@ args = parser.parse_args()
 
 if args.gui:
     root = Tk(screenName="Sprawdzanie sum kontrolnych!")
-    root.wm_title("Hello, world")
+    root.wm_title("Sprawdzanie sum kontrolnych!")
 
     tree = ttk.Treeview(root)
     tree.pack(fill=BOTH, expand=YES)
